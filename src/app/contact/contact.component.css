@@ -1,0 +1,16 @@
+.star{
+    color: red;
+}
+table td{
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+input{
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.map_pic{
+    width: 400px;
+}

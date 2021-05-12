@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.banner_image{
+   
+    width: 100%;
+
+}
+
+.bottem_banner{
+    background-color: black;
+    height: 100px;
+    
+}
+
+.learn_more_btn {
+    background-color: #bb2a2a; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.learn_more_btn:hover{
+    background-color: #dd4a4a;
+}
+
+.contact_btn{
+    background-color: #2693b4; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.contact_btn:hover{
+    background-color: #3eadcf;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,43 @@
+<div class="container">
+
+    <img class="banner_image" src="./assets/img/citypic.jpg">
+ 
+    <div class="banner-text">
+        <span class="main-title"><h1>Webster Medical</h1></span>
+        <h2>Where Quality Always Comes First</h2>
+        <button routerLink="/contact" class="contact_btn" type="button">Contact us</button>
+    </div>
+    
+    <div class="clincal-header"><h1>Clincal Services</h1> </div>
+
+
+    <table id="services_table">
+      
+      <tr>
+        <td *ngFor = "let service of clincal_services">
+          <img src={{service.img_src}}>
+        </td>
+      </tr>
+
+      <tr>
+        <th *ngFor = "let service of clincal_services">
+            {{service.name}}
+        </th>
+      </tr>
+
+      <tr>
+        <td *ngFor = "let service of clincal_services">
+          {{service.description}}
+        </td>
+      </tr>
+
+      <tr>
+        <td *ngFor = "let service of clincal_services">
+          <button routerLink="/about" class="learn_more_btn" type="button">Learn More</button>
+        </td>
+      </tr>
+
+  
+    </table>
+
+</div>
